@@ -8,3 +8,51 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #e8eafd;
 }
+
+.navbar {
+    background-color: #4c528d;
+    padding: 25px;
+}
+
+.navbar ul {
+list-style: none;
+display: flex;
+justify-content: center;
+}
+
+.navbar li {
+    margin-top: 0;
+    margin-right: 20px;
+}
+
+.navbar a{
+color: #141430;
+text-decoration: none;
+font-weight: 900;
+}
+
+.navbar a:hover{ 
+    color: #7979ff;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+img{
+    width: 1000px;
+    border-radius: 50px;
+}
+
+h1{
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+p{
+    margin-top: 15px;
+    line-height: 0.8;
+}
