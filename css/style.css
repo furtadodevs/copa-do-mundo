@@ -26,7 +26,7 @@ justify-content: center;
 }
 
 .navbar a{
-color: #141430;
+color: #1b1b3f;
 text-decoration: none;
 font-weight: 900;
 }
@@ -43,8 +43,10 @@ font-weight: 900;
 }
 
 img{
-    width: 1000px;
+    width: 600px;
+    height: 400px;
     border-radius: 50px;
+    border: 3px solid #0a0938;
 }
 
 h1{
@@ -55,5 +57,9 @@ h1{
 p{
     margin-top: 15px;
     line-height: 1.2;
+    text-align: center;
+}
+
+.paragrafo{
     text-align: justify;
 }
